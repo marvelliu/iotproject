@@ -1,0 +1,5 @@
+#Uncomment fields before use and type in correct credentials.
+SERVER=''
+PORT=8000
+BUF_SIZE=1024
+TMP_IMAGE_FILE=/tmp/image.jpg
