@@ -23,7 +23,7 @@ def read_brightness():
         ser.write("LIGHT")
         time.sleep(0.1)
         t = ser.readline()
-        v = float(t)
+        v = int(t)
         time.sleep(0.1)
         ser.close()
         return 1, v
